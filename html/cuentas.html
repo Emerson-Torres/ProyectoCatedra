@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Cuentas | eWallet </title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/estiloCuenta.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Quicksand|Roboto|Titillium+Web|Amatic+SC|Boogaloo" rel="stylesheet">
+    <script src="../js/logeadoPrimero.js"></script>
+  </head>
+  <body>
+    <div class="Contenedor">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="../html/logeado1.html">Inicio</a></li>
+            <li><a href=""> Cuentas </a>
+              <ul class="Hijos">
+                  <li><a href="javascript:DesplegarSaldo('visible');"> Efectivo </a></li>
+                  <li><a href="../html/cuentas.html"> Cuentas </a></li>
+                  <li><a href="../html/tarjetasCredito.html"> Tarjetas de crédito </a></li>
+              </ul>
+            </li>
+            <li><a href="../html/ingresos.html"> Ingresos </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li><a href="../html/gastos.html"> Gastos </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li><a href="../html/estadisticas.html"> Estadísticas </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li class="li"><a href="../html/configuracion.html"> Configuración </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <article>
+          <div class="ModalSaldo" id="ModalSaldo">
+            <div class="SaldoActual">
+              <h1> Su saldo actual </h1>
+              <h3 id="Saldo"></h3>
+              <div class="Cerrar"><a href="javascript:DesplegarSaldo('hidden');"> Cerrar </a></div>
+            </div>
+          </div>
+        </article>
+        <article class="Articulo">
+          <h1 class="Titulo"> Mis cuentas </h1>
+          <div class="Cuentas">
+            <p> Nombre del banco: Davivienda </p><br>
+            <p> Número de cuenta: 200-000302 </p><br>
+            <p> Saldo actual: $405 </p>
+          </div>
+          <a href="javascript:DesplegarAgregarCuenta('visible');"><img src="../img/Boton.png" title="Agregar cuenta" class="BotonAgregar"></a>
+        </article>
+        <div class="ModalAgregarCuenta" id="ModalAgregarCuenta">
+          <div class="SaldoActual2">
+            <h1> Agrega una nueva cuenta de ahorro </h1><br><br>
+            <input type="text" placeholder="Nombre del banco" id="NombreBanco" class="inputTarjeta"><br><br>
+            <input type="text" placeholder="Número de cuenta" id="NumeroCuenta" class="inputTarjeta"><br><br>
+            <input type="text" placeholder="Saldo actual" id="SaldoA" class="inputTarjeta"><br><br>
+            <input type="button" value="Aceptar" id="AgregarCuenta" class="AgregarTarjeta">
+            <div class="Cerrar1"><a href="javascript:DesplegarAgregarCuenta('hidden');"> Cerrar </a></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </body>
+</html>

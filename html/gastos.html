@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Gastos | eWallet </title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/estiloCuenta.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial|Quicksand|Roboto|Titillium+Web|Amatic+SC|Boogaloo" rel="stylesheet">
+    <script src="../js/logeadoPrimero.js"></script>
+  </head>
+  <body>
+    <div class="Contenedor">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="../html/logeado1.html">Inicio</a></li>
+            <li><a href=""> Cuentas </a>
+              <ul class="Hijos">
+                  <li><a href="javascript:DesplegarSaldo('visible');"> Efectivo </a></li>
+                  <li><a href="../html/cuentas.html"> Cuentas </a></li>
+                  <li><a href="../html/tarjetasCredito.html"> Tarjetas de crédito </a></li>
+              </ul>
+            </li>
+            <li><a href="../html/ingresos.html"> Ingresos </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li><a href="../html/gastos.html"> Gastos </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li><a href="../html/estadisticas.html"> Estadísticas </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+            <li class="li"><a href="../html/configuracion.html"> Configuración </a>
+              <ul class="Hijos">
+
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <article>
+          <div class="ModalSaldo" id="ModalSaldo">
+            <div class="SaldoActual">
+              <h1> Su saldo actual </h1>
+              <h3 id="Saldo"></h3>
+              <div class="Cerrar"><a href="javascript:DesplegarSaldo('hidden');"> Cerrar </a></div>
+            </div>
+          </div>
+        </article>
+        <article class="Articulo">
+          <h1 class="Titulo"> Mis gastos </h1>
+          <div class="Gastos">
+            <p class="Motivo"> Pago de celular </p><br>
+            <p> Fecha: 1/10/2017 </p>
+            <p> Monto: $35 </p>
+            <p> Cuenta utilizada: 200-000302 </p><br>
+          </div>
+          <div class="AgregarMotivo">
+            <p> Agregar nuevo motivo </p><br>
+            <a href=""><img src="../img/Boton.png" class="BotonAgregarMotivo"></a>
+          </div>
+          <a href="javascript:DesplegarAgregarCuenta('visible');"><img src="../img/Boton.png" title="Agregar nuevo gasto" class="BotonAgregarGastos"></a>
+        </article>
+        <div class="ModalAgregarCuenta" id="ModalAgregarCuenta">
+          <div class="SaldoActual2">
+            <h1> Agregar un nuevo gasto </h1><br><br>
+            <select class="Opciones">
+              <option value="">Pago de celular</option>
+              <option value="">Pago de luz eléctrica</option>
+              <option value="">Pago de agua</option>
+              <option value="">Pago de alquiler</option>
+              <option value="">Pago de cable</option>
+              <option value="">Pago de internet</option>
+              <option value="">Pago de educación</option>
+              <option value="">Supermercado</option>
+              <option value="">Cine</option>
+              <option value="">Discoteca</option>
+              <option value="">Teatro</option>
+              <option value="">Ropa</option>
+              <option value="">Restaurante</option>
+              <option value="">Tecnología</option>
+              <option value="">Mascota</option>
+              <option value="">Gasolina</option>
+              <option value="">Reparaciones</option>
+            </select><br><br>
+            <input type="text" placeholder="Fecha" id="NumeroCuenta" class="inputTarjeta"><br><br>
+            <input type="text" placeholder="Monto" id="SaldoA" class="inputTarjeta"><br><br>
+            <input type="text" placeholder="Cuenta utilizada" id="CuentaUtilizada" class="inputTarjeta"><br><br>
+            <input type="button" value="Aceptar" id="AgregarCuenta" class="AgregarTarjeta">
+            <div class="Cerrar1"><a href="javascript:DesplegarAgregarCuenta('hidden');"> Cerrar </a></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+  </body>
+</html>

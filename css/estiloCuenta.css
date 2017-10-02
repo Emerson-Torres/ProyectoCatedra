@@ -1,0 +1,400 @@
+.Madre{
+  background: red;
+  width: 12%;
+  padding: 0.5%;
+}
+
+.Ubicacion{
+  background: #546E7A;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.hc{
+  margin-left: 47%;
+  margin-top: -10.8%;
+}
+
+.hd{
+  margin-left: 59%;
+  margin-top: -10.6%;
+}
+
+.SaldoActual{
+  background: red;
+  margin-top: 5%;
+  width: 30%;
+  margin-left: 35%;
+  padding: 1%;
+}
+
+.SaldoActual h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.ModalSaldo, .ModalAgregarCuenta, .ModalAgregarTarjeta{
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.SaldoActual{
+  position: absolute;
+  background: #00695C;
+  padding: 1%;
+  border: solid #FFF 10px;
+  width: 500px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
+}
+
+.SaldoActual h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+.SaldoActual1{
+  position: absolute;
+  background: #00695C;
+  padding: 1%;
+  border: solid #FFF 10px;
+  width: 500px;
+  height: 500px;
+  top: 40%;
+  left: 40%;
+  margin-top: -200px;
+  margin-left: -115px;
+}
+
+.SaldoActual1 h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+.SaldoActual2{
+  position: absolute;
+  background: #00695C;
+  padding: 1%;
+  border: solid #FFF 10px;
+  width: 500px;
+  height: 422px;
+  top: 40%;
+  left: 40%;
+  margin-top: -150px;
+  margin-left: -115px;
+}
+
+.SaldoActual2 h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+.SaldoActual3{
+  position: absolute;
+  background: #00695C;
+  padding: 1%;
+  border: solid #FFF 10px;
+  width: 500px;
+  height: 525px;
+  top: 40%;
+  left: 40%;
+  margin-top: -200px;
+  margin-left: -115px;
+}
+
+.SaldoActual3 h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+.Cerrar{
+  background: #C62828;
+  padding: 1%;
+  width: 12.5%;
+  margin-top: 62%;
+  margin-left: 88%;
+}
+
+.Cerrar1{
+  background: #C62828;
+  padding: 1%;
+  width: 12.5%;
+  margin-top: 4.5%;
+  margin-left: 88%;
+}
+
+.Cerrar1 a{
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.Cerrar a{
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.CerrarM{
+  background: #C62828;
+  padding: 1%;
+  width: 7.3%;
+  margin-left: 93.5%;
+  margin-top: 34%;
+}
+
+.CerrarM a{
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.h3{
+  font-size: 1.8em;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.Titulo{
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Articulo{
+  background: #546E7A;
+  margin-top: 0;
+  padding: 2%;
+  height: 600px;
+}
+
+.Articulo h1{
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Cuentas{
+  background: #212121;
+  padding: 2%;
+  width: 55.5%;
+  margin-top: 4%;
+  margin-left: 22%;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+.BotonAgregar{
+  width: 7%;
+  margin-top: 16.5%;
+  margin-left: 89.5%;
+  position: fixed;
+}
+
+.BotonAgregar1{
+  width: 7%;
+  margin-top: 12.2%;
+  margin-left: 89.5%;
+  position: fixed;
+}
+
+.BotonAgregar2{
+  width: 7%;
+  margin-top: 14.5%;
+  margin-left: 89.5%;
+  position: fixed;
+}
+
+.BotonAgregarGastos{
+  width: 7%;
+  margin-top: 30.5%;
+  margin-left: 32.7%;
+  position: fixed
+}
+
+.BotonAgregarMotivo{
+  width: 33%;
+  margin-top: 2%;
+  margin-left: 32%;
+}
+
+.inputTarjeta{
+  width: 100%;
+  height: 30px;
+  border-style: none;
+  font-family: 'Questrial', sans-serif;
+  padding: 1.5%;
+}
+
+.Opciones{
+  width: 100%;
+  height: 30px;
+  border-style: none;
+  font-family: 'Questrial', sans-serif;
+  padding: 1.5%;
+}
+
+.inputTarjeta1{
+  width: 100%;
+  height: 80px;
+  border-style: none;
+  font-family: 'Questrial', sans-serif;
+  padding: 1.5%;
+}
+
+.AgregarTarjeta{
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+  border-style: none;
+  font-family: 'Quicksand', sans-serif;
+  background: #4CAF50;
+  color: white;
+  padding: 1.5%;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.Gastos{
+  background: #212121;
+  display: inline-block;
+  margin-left: 9.5%;
+  margin-top: 5%;
+  padding: 2%;
+  width: 20.1%;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding-top: 3%;
+}
+
+.AgregarMotivo{
+  background: #212121;
+  display: inline-block;
+  margin-left: 9.5%;
+  margin-top: 5%;
+  padding: 2%;
+  width: 20%;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding-top: 2.2%;
+}
+
+.AgregarMotivo p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.Motivo{
+  font-size: 1.1em;
+}
+
+.Elegir{
+  background: #212121;
+  width: 21%;
+  padding: 1%;
+  margin-top: 1%;
+  color: white;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+.Elegir a{
+  color: white;
+}
+
+.Elegir:hover{
+  margin-left: 1%;
+  transition-duration: 0.4s;
+}
+
+.ArticuloEstadisticas{
+  height: 500px;
+  background: #546E7A;
+  margin-top: 0;
+  padding: 2%;
+  height: 600px;
+}
+
+.ModalMensuales{
+  background: #424242;
+  padding: 2%;
+  width: 70%;
+  height: 400px;
+  margin-left: 27%;
+  margin-top: -12%;
+  visibility: hidden;
+}
+
+.ModalAnuales{
+  background: #424242;
+  padding: 2%;
+  width: 70%;
+  height: 400px;
+  margin-left: 27%;
+  margin-top: -30.9%;
+  visibility: hidden;
+}
+
+.ModalPeriodo{
+  background: #424242;
+  padding: 2%;
+  width: 70%;
+  height: 400px;
+  margin-left: 27%;
+  margin-top: -30.9%;
+  visibility: hidden;
+}
+
+.PagoDefecto{
+  color: white;
+  background: #424242;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 2%;
+  font-family: 'Questrial', sans-serif;
+  width: 20%;
+}
+
+.Selec{
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.AceptarPago{
+  background: #4CAF50;
+  border-style: none;
+  width: 35%;
+  height: 30px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  margin-left: 32%;
+  margin-top: 1%;
+}
+
+.DatosPersonales{
+  color: white;
+  background: #424242;
+  margin-top: -13.5%;
+  padding: 2%;
+  font-family: 'Questrial', sans-serif;
+  width: 60%;
+  margin-left: 33%;
+}

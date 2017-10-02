@@ -1,0 +1,139 @@
+body{
+  background: #424242;
+  margin-top: 0;
+}
+
+article{
+  margin-top: 0;
+}
+
+.Titulo{
+  font-size: 2.5em;
+  margin-left: 34.6%;
+  margin-top: 5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.MejorControl{
+  margin-left: 55%;
+  margin-top: -26%;
+}
+
+.Logo{
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 11%;
+}
+
+.Monto{
+  background: #546E7A;
+  width: 80%;
+  padding: 2%;
+  color: white;
+}
+
+.h2Monto{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.inputMonto{
+  width: 100%;
+  height: 30px;
+  border-style: inherit;
+  font-family: 'Questrial', sans-serif;
+  padding: 1.5%;
+}
+
+.inputAceptarMonto{
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+  border-style: none;
+  font-family: 'Quicksand', sans-serif;
+  background: #4CAF50;
+  color: white;
+}
+
+.Cuentas{
+  background: #546E7A;
+  width: 80%;
+  padding: 2%;
+  color: white;
+}
+
+.h2Cuentas{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.inputCuentas{
+  width: 100%;
+  height: 30px;
+  border-style: inherit;
+  font-family: 'Questrial', sans-serif;
+  padding: 1.5%;
+}
+
+.inputAceptarCuentas{
+  width: 50%;
+  height: 30px;
+  margin-left: 25%;
+  border-style: none;
+  font-family: 'Quicksand', sans-serif;
+  background: #4CAF50;
+  color: white;
+}
+
+.ModalSaldo{
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  visibility: hidden;
+}
+
+#Saldo{
+  font-size: 3em;
+  color: white;
+  margin-top: 22%;
+  margin-left: 43%;
+}
+
+.SaldoActual{
+  position: absolute;
+  background: #00695C;
+  padding: 1%;
+  border: solid #FFF 10px;
+  width: 500px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
+}
+
+.SaldoActual h1{
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+.Cerrar{
+  background: #C62828;
+  padding: 1%;
+  width: 12.5%;
+  margin-top: 27.5%;
+  margin-left: 88%;
+}
+
+.Cerrar a{
+  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+/* Responsive */
